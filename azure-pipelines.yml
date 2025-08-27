@@ -12,7 +12,6 @@ steps:
 - task: TerraformInstaller@1
   inputs:
     terraformVersion: 'latest'
-
 - task: TerraformTask@5
   inputs:
     provider: 'azurerm'
@@ -26,10 +25,11 @@ steps:
   inputs:
     provider: 'azurerm'
     command: 'plan'
-    environmentServiceNameAzureRM: 'connectionwala'
+    environmentServiceNameAzureRM: 'aone'
+
 - task: TerraformTask@5
   inputs:
     provider: 'azurerm'
     command: 'apply'
-
+    environmentServiceNameAzureRM: 'aone'
 
