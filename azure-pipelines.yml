@@ -17,7 +17,7 @@ steps:
   inputs:
     provider: 'azurerm'
     command: 'init'
-    backendServiceArm: 'connectionwala'
+    backendServiceArm: 'aone'
     backendAzureRmResourceGroupName: 'tej-rg'
     backendAzureRmStorageAccountName: 'ranastoragee'
     backendAzureRmContainerName: 'jaffa'
