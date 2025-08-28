@@ -34,3 +34,7 @@ resource "azurerm_resource_group" "saadugar" {
   name     = "saadu-rg"
   location = "East US"
 }
+resource "azurerm_resource_group" "jor" {
+  name     = "joru-rg"
+  location = "East US"
+}
