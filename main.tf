@@ -30,7 +30,7 @@ resource "azurerm_resource_group" "waadugar" {
   name     = "waadu-rg"
   location = "East US"
 }
-resource "azurerm_resource_group" "saadugar" {
-  name     = "saadu-rg"
+resource "azurerm_resource_group" "jandu" {
+  name     = "jandu-rg"
   location = "East US"
 }
